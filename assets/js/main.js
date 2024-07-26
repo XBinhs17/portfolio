@@ -46,12 +46,15 @@ let swiperProjects = new Swiper(".projects__container", {
           slidesPerView: 2,
           spaceBetween: 140,
         },
+        1441: {
+            slidesPerView: 2,
+            spaceBetween: 250,
+          },
       },
     mousewheel: true,
     keyboard: true,
 });
 
-// ==== SWIPER TESTIMONIAL
 
 // ==== EMAIL JS
 const contactForm = document.getElementById('contact-form'),
